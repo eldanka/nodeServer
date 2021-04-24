@@ -6,7 +6,7 @@ Basic node server on localhost:5000
     body-parser: ^1.19.0 (npm install body-parser)</br>
     express: ^4.17.1 (npm install express)</br>
     helmet: ^4.5.0 (npm install helmet --save)</br>
-<h3>devDependencies (commands used for installation):</h3> 
+<h3>*devDependencies (commands used for installation):</h3> 
     babel-core: ^6.26.3</br>
     babel-loader: ^7.1.5</br>
     babel-preset-env: ^1.7.0</br>
@@ -17,7 +17,7 @@ Basic node server on localhost:5000
     webpack-cli: ^4.6.0</br>
     webpack-node-externals: ^3.0.0</br>
     (npm install webpack webpack-cli webpack-node-externals --save-dev)</br>
-<h3>scripts:</h3>
+<h2>scripts:</h2>
     start: nodemon</br>
     build: webpack --mode=production"</br>
     test: echo \"Error: no test specified\" && exit 1</br>
